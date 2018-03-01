@@ -1,10 +1,3 @@
-class Student
-  def get_student
-    p "Enter the student's name:"
-    @student_name = gets.chomp
-  end
-end
-
 class Group
   def how_many_students
     p "How many Students does your class have?"
@@ -41,8 +34,3 @@ class Group
     end
   end
 end
-
-study_groups = Group.new
-study_groups.enter_class_info
-study_groups.make_groups
-study_groups.print_groups(@groups)
